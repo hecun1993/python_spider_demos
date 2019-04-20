@@ -3,6 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 import pymongo
 
+import jieba
+
 MONGO_URL = 'localhost'
 MONGO_DB = 'paper'
 
